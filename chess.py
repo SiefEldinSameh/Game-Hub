@@ -18,8 +18,7 @@ font = py.font.Font("freesansbold.ttf",30)
 small_font = py.font.Font("freesansbold.ttf",15)
 big_font = py.font.Font("freesansbold.ttf",45)
 size = 0
-moves = []
-steps = 0
+
 
 
 white_pieces = ["rook","knight","bishop","king","queen","bishop","knight","rook",
@@ -79,8 +78,7 @@ def draw_board1():
     for i in range(8):
          screen.blit(small_font.render(f"{i+1}",True,"black"),(8*size-0.15*size,(i)*size+0.1*size))
          screen.blit(small_font.render(f"{chr(ord('a')+i)}",True,"black"),((i)*size+0.08*size,8*size-0.2*size))
-    for i,j in enumerate(moves):
-         screen.blit(font.render(f"{j}",True,"black"),((i) *size,8*size+55))
+    
          
 
 
@@ -429,7 +427,7 @@ def save_current(queue, ts):
 
 def main():
     global black_options, white_options, run, counter, is_fullscreen, screen
-    global turn_step, selection, valid_moves, game_over, winner,steps
+    global turn_step, selection, valid_moves, game_over, winner
     
     black_options = check_options(black_pieces,black_locations,"black")
     white_options = check_options(white_pieces,white_locations,"white")
@@ -482,9 +480,6 @@ def main():
                                 
                       if click_coor in valid_moves and selection != 100 :
                            save_current(undo_queue,0)
-                           moves.append((chr(click_coor[0]+ord("a")),click_coor[1]+1))
-                           steps+=1
-                           print((chr(click_coor[0]+ord("a")),click_coor[1]+1))
                            white_locations[selection] = click_coor
                            if click_coor in black_locations:
                                 black_piece = black_locations.index(click_coor)
@@ -509,8 +504,6 @@ def main():
                                 turn_step = 3
                       if click_coor in valid_moves and selection != 100 :
                            save_current(undo_queue,2)
-                           moves.append((chr(click_coor[0]+ord("a")),click_coor[1]+1))
-                           steps+=1
                            black_locations[selection] = click_coor
                            if click_coor in white_locations:
                                 white_piece = white_locations.index(click_coor)
