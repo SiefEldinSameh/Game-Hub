@@ -10,7 +10,7 @@ screen = py.display.set_mode((width*0.6,height*0.85))
 undo_queue = deque()
 
 py.display.set_caption("CHESS")
-icon = py.image.load("assets//images//icon.png")
+icon = py.image.load("assets//chess_images//icon.png")
 py.display.set_icon(icon)
 timer = py.time.Clock()
 fps = 60
@@ -85,33 +85,33 @@ def draw_board1():
 
 
 def draw_pieces():
-    black_queen = py.image.load('assets/images/black queen.png')
+    black_queen = py.image.load('assets/chess_images/black queen.png')
     black_queen = py.transform.scale(black_queen, (0.8*size, 0.8*size))
-    black_king = py.image.load('assets/images/black king.png')
+    black_king = py.image.load('assets/chess_images/black king.png')
     black_king = py.transform.scale(black_king, (0.8*size, 0.8*size))
-    black_rook = py.image.load('assets/images/black rook.png')
+    black_rook = py.image.load('assets/chess_images/black rook.png')
     black_rook = py.transform.scale(black_rook, (0.8*size, 0.8*size))
-    black_bishop = py.image.load('assets/images/black bishop.png')
+    black_bishop = py.image.load('assets/chess_images/black bishop.png')
     black_bishop = py.transform.scale(black_bishop, (0.8*size, 0.8*size))
-    black_knight = py.image.load('assets/images/black knight.png')
+    black_knight = py.image.load('assets/chess_images/black knight.png')
     black_knight = py.transform.scale(black_knight, (0.8*size, 0.8*size))
-    black_pawn = py.image.load('assets/images/black pawn.png')
+    black_pawn = py.image.load('assets/chess_images/black pawn.png')
     black_pawn = py.transform.scale(black_pawn, (0.65*size, 0.65*size))
-    white_queen = py.image.load('assets/images/white queen.png')
+    white_queen = py.image.load('assets/chess_images/white queen.png')
     white_queen = py.transform.scale(white_queen, (0.8*size, 0.8*size))
-    white_king = py.image.load('assets/images/white king.png')
+    white_king = py.image.load('assets/chess_images/white king.png')
     white_king = py.transform.scale(white_king, (0.8*size, 0.8*size))
-    white_rook = py.image.load('assets/images/white rook.png')
+    white_rook = py.image.load('assets/chess_images/white rook.png')
     white_rook = py.transform.scale(white_rook, (0.8*size, 0.8*size))
-    white_bishop = py.image.load('assets/images/white bishop.png')
+    white_bishop = py.image.load('assets/chess_images/white bishop.png')
     white_bishop = py.transform.scale(white_bishop, (0.8*size, 0.8*size))
-    white_knight = py.image.load('assets/images/white knight.png')
+    white_knight = py.image.load('assets/chess_images/white knight.png')
     white_knight = py.transform.scale(white_knight, (0.8*size, 0.8*size))
-    white_pawn = py.image.load('assets/images/white pawn.png')
+    white_pawn = py.image.load('assets/chess_images/white pawn.png')
     white_pawn = py.transform.scale(white_pawn, (0.65*size, 0.65*size))
-    white_images = [white_pawn, white_queen, white_king, white_knight, white_rook, white_bishop]
+    white_chess_images = [white_pawn, white_queen, white_king, white_knight, white_rook, white_bishop]
 
-    black_images = [black_pawn, black_queen, black_king, black_knight, black_rook, black_bishop]
+    black_chess_images = [black_pawn, black_queen, black_king, black_knight, black_rook, black_bishop]
    
 
     for i in range(len(white_pieces)):
@@ -119,7 +119,7 @@ def draw_pieces():
           if white_pieces[i] == "pawn":
                screen.blit(white_pawn,(white_locations[i][0]*size+15,white_locations[i][1]*size+22))
           else:
-               screen.blit(white_images[index],(white_locations[i][0]*size+10,white_locations[i][1]*size+10))
+               screen.blit(white_chess_images[index],(white_locations[i][0]*size+10,white_locations[i][1]*size+10))
 
           if turn_step <2 :
                if selection == i :
@@ -131,7 +131,7 @@ def draw_pieces():
           if black_pieces[i] == "pawn":
                screen.blit(black_pawn,(black_locations[i][0]*size+15,black_locations[i][1]*size+22))
           else:
-               screen.blit(black_images[index],(black_locations[i][0]*size+10,black_locations[i][1]*size+10))
+               screen.blit(black_chess_images[index],(black_locations[i][0]*size+10,black_locations[i][1]*size+10))
           if turn_step >= 2 :
              if selection == i :
                  py.draw.rect(screen,"blue",(black_locations[i][0]*size,black_locations[i][1]*size,size,size),2)
@@ -300,42 +300,42 @@ def check_king(position,color):
      return move_list
 
 def draw_captured_pieces():
-    black_queen = py.image.load('assets/images/black queen.png')
+    black_queen = py.image.load('assets/chess_images/black queen.png')
     black_queen_small = py.transform.scale(black_queen, (0.45*size, 0.45*size))
-    black_king = py.image.load('assets/images/black king.png')
+    black_king = py.image.load('assets/chess_images/black king.png')
     black_king_small = py.transform.scale(black_king, (0.45*size, 0.45*size))
-    black_rook = py.image.load('assets/images/black rook.png')
+    black_rook = py.image.load('assets/chess_images/black rook.png')
     black_rook_small = py.transform.scale(black_rook, (0.45*size, 0.45*size))
-    black_bishop = py.image.load('assets/images/black bishop.png')
+    black_bishop = py.image.load('assets/chess_images/black bishop.png')
     black_bishop_small = py.transform.scale(black_bishop, (0.45*size, 0.45*size))
-    black_knight = py.image.load('assets/images/black knight.png')
+    black_knight = py.image.load('assets/chess_images/black knight.png')
     black_knight_small = py.transform.scale(black_knight, (0.45*size, 0.45*size))
-    black_pawn = py.image.load('assets/images/black pawn.png')
+    black_pawn = py.image.load('assets/chess_images/black pawn.png')
     black_pawn_small = py.transform.scale(black_pawn, (0.45*size, 0.45*size))
-    white_queen = py.image.load('assets/images/white queen.png')
+    white_queen = py.image.load('assets/chess_images/white queen.png')
     white_queen_small = py.transform.scale(white_queen, (0.45*size, 0.45*size))
-    white_king = py.image.load('assets/images/white king.png')
+    white_king = py.image.load('assets/chess_images/white king.png')
     white_king_small = py.transform.scale(white_king, (0.45*size, 0.45*size))
-    white_rook = py.image.load('assets/images/white rook.png')
+    white_rook = py.image.load('assets/chess_images/white rook.png')
     white_rook_small = py.transform.scale(white_rook, (0.45*size, 0.45*size))
-    white_bishop = py.image.load('assets/images/white bishop.png')
+    white_bishop = py.image.load('assets/chess_images/white bishop.png')
     white_bishop_small = py.transform.scale(white_bishop, (0.45*size, 0.45*size))
-    white_knight = py.image.load('assets/images/white knight.png')
+    white_knight = py.image.load('assets/chess_images/white knight.png')
     white_knight_small = py.transform.scale(white_knight, (0.45*size, 0.45*size))
-    white_pawn = py.image.load('assets/images/white pawn.png')
+    white_pawn = py.image.load('assets/chess_images/white pawn.png')
     white_pawn_small = py.transform.scale(white_pawn, (0.45*size, 0.45*size))
-    small_white_images = [white_pawn_small, white_queen_small, white_king_small, white_knight_small,
+    small_white_chess_images = [white_pawn_small, white_queen_small, white_king_small, white_knight_small,
                         white_rook_small, white_bishop_small]
-    small_black_images = [black_pawn_small, black_queen_small, black_king_small, black_knight_small,
+    small_black_chess_images = [black_pawn_small, black_queen_small, black_king_small, black_knight_small,
                         black_rook_small, black_bishop_small]
     for i in range(len(captured_pieces_black)):
           captured_piece = captured_pieces_black[i]
           index = piece_list.index(captured_piece)
-          screen.blit(small_white_images[index],(8*size,10+i*size*0.5))
+          screen.blit(small_white_chess_images[index],(8*size,10+i*size*0.5))
     for i in range(len(captured_pieces_white)):
           captured_piece = captured_pieces_white[i]
           index = piece_list.index(captured_piece)
-          screen.blit(small_black_images[index],((8+1)*size,10+i*size*0.5))
+          screen.blit(small_black_chess_images[index],((8+1)*size,10+i*size*0.5))
                      
 def draw_checked():
      if turn_step <2 :
