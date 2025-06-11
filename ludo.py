@@ -11,29 +11,29 @@ pygame.display.set_caption("Ludo")
 screen = pygame.display.set_mode((680, 600))
 # Loading Images
 
-board = pygame.image.load(r"ludo_assets/Board_2.png")
-star  = pygame.image.load(r"ludo_assets/star.png")
-one   = pygame.image.load(r"ludo_assets/1.png")
-two   = pygame.image.load(r"ludo_assets/2.png")
-three = pygame.image.load(r"ludo_assets/3.png")
-four  = pygame.image.load(r"ludo_assets/4.png")
-five  = pygame.image.load(r"ludo_assets/5.png")
-six   = pygame.image.load(r"ludo_assets/6.png") 
+board = pygame.image.load(r"assets/ludo_assets/Board_2.png")
+star  = pygame.image.load(r"assets/ludo_assets/star.png")
+one   = pygame.image.load(r"assets/ludo_assets/1.png")
+two   = pygame.image.load(r"assets/ludo_assets/2.png")
+three = pygame.image.load(r"assets/ludo_assets/3.png")
+four  = pygame.image.load(r"assets/ludo_assets/4.png")
+five  = pygame.image.load(r"assets/ludo_assets/5.png")
+six   = pygame.image.load(r"assets/ludo_assets/6.png") 
 
-red    = pygame.image.load(r"ludo_assets/red.png")
-blue   = pygame.image.load(r"ludo_assets/blue.png")
-green  = pygame.image.load(r"ludo_assets/green.png")
-yellow = pygame.image.load(r"ludo_assets/yellow.png")
+red    = pygame.image.load(r"assets/ludo_assets/red.png")
+blue   = pygame.image.load(r"assets/ludo_assets/blue.png")
+green  = pygame.image.load(r"assets/ludo_assets/green.png")
+yellow = pygame.image.load(r"assets/ludo_assets/yellow.png")
 
 DICE  = [one, two, three, four, five, six]
 color = [red, green, yellow, blue]
 
 # Loading Sounds
 
-killSound   = mixer.Sound(r"ludo_assets/sounds/kill.mp3")
-tokenSound  = mixer.Sound(r"ludo_assets/sounds/token_movment.mp3")
-diceSound   = mixer.Sound(r"ludo_assets/sounds/Dice Roll.wav")
-winnerSound = mixer.Sound(r"ludo_assets/sounds/win.mp3")
+killSound   = mixer.Sound(r"assets/ludo_assets/sounds/kill.mp3")
+tokenSound  = mixer.Sound(r"assets/ludo_assets/sounds/token_movment.mp3")
+diceSound   = mixer.Sound(r"assets/ludo_assets/sounds/Dice Roll.wav")
+winnerSound = mixer.Sound(r"assets/ludo_assets/sounds/win.mp3")
 
 # Initializing Variables
 
