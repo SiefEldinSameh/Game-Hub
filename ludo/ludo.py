@@ -11,7 +11,7 @@ pygame.display.set_caption("Ludo")
 screen = pygame.display.set_mode((680, 600))
 # Loading Images
 
-board = pygame.image.load(r"D:\prog projects\dsa_task\graphics\Board_2.png")
+board = pygame.image.load(r"/ludo_assetsBoard_2.png")
 star  = pygame.image.load(r"D:\prog projects\dsa_task\assets\star.png")
 one   = pygame.image.load(r"D:\prog projects\dsa_task\assets\1.png")
 two   = pygame.image.load(r"D:\prog projects\dsa_task\assets\2.png")
@@ -20,20 +20,20 @@ four  = pygame.image.load(r"D:\prog projects\dsa_task\assets\4.png")
 five  = pygame.image.load(r"D:\prog projects\dsa_task\assets\5.png")
 six   = pygame.image.load(r"D:\prog projects\dsa_task\assets\6.png") 
 
-red    = pygame.image.load(r"D:\prog projects\dsa_task\graphics\adel_token\red.png")
-blue   = pygame.image.load(r"D:\prog projects\dsa_task\graphics\adel_token\blue.png")
-green  = pygame.image.load(r"D:\prog projects\dsa_task\graphics\adel_token\green.png")
-yellow = pygame.image.load(r"D:\prog projects\dsa_task\graphics\adel_token\yellow.png")
+red    = pygame.image.load(r"/ludo_assetsadel_token\red.png")
+blue   = pygame.image.load(r"/ludo_assetsadel_token\blue.png")
+green  = pygame.image.load(r"/ludo_assetsadel_token\green.png")
+yellow = pygame.image.load(r"/ludo_assetsadel_token\yellow.png")
 
 DICE  = [one, two, three, four, five, six]
 color = [red, green, yellow, blue]
 
 # Loading Sounds
 
-killSound   = mixer.Sound(r"D:\prog projects\dsa_task\graphics\adel_token\sounds\kill.mp3")
-tokenSound  = mixer.Sound(r"D:\prog projects\dsa_task\graphics\adel_token\sounds\token_movment.mp3")
-diceSound   = mixer.Sound(r"D:\prog projects\dsa_task\graphics\adel_token\sounds\Dice Roll.wav")
-winnerSound = mixer.Sound(r"D:\prog projects\dsa_task\graphics\adel_token\sounds\win.mp3")
+killSound   = mixer.Sound(r"/ludo_assets/soundsadel_token\sounds\kill.mp3")
+tokenSound  = mixer.Sound(r"/ludo_assets/soundsadel_token\sounds\token_movment.mp3")
+diceSound   = mixer.Sound(r"/ludo_assets/soundsadel_token\sounds\Dice Roll.wav")
+winnerSound = mixer.Sound(r"/ludo_assets/soundsadel_token\sounds\win.mp3")
 
 # Initializing Variables
 
