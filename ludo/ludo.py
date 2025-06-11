@@ -11,7 +11,7 @@ pygame.display.set_caption("Ludo")
 screen = pygame.display.set_mode((680, 600))
 # Loading Images
 
-board = pygame.image.load(r"/ludo_assetsBoard_2.png")
+board = pygame.image.load(r"\ludo_assetsBoard_2.png")
 star  = pygame.image.load(r"D:\prog projects\dsa_task\assets\star.png")
 one   = pygame.image.load(r"D:\prog projects\dsa_task\assets\1.png")
 two   = pygame.image.load(r"D:\prog projects\dsa_task\assets\2.png")
