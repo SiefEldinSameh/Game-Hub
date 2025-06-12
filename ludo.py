@@ -12,21 +12,21 @@ screen = pygame.display.set_mode((680, 600))
 
 # Loading Images
 try:
-    board = pygame.image.load(r"C:\Users\hp\OneDrive\Desktop\LudoGame\Game-Hub\assets\ludo_assets\Board_2.png")
-    star = pygame.image.load(r"C:\Users\hp\OneDrive\Desktop\LudoGame\Game-Hub\assets\ludo_assets\star.png")
+    board = pygame.image.load(r"assets\ludo_assets\Board_2.png")
+    star =  pygame.image.load(r"assets\ludo_assets\star.png")
     dice_images = [
-        pygame.image.load(r"C:\Users\hp\OneDrive\Desktop\LudoGame\Game-Hub\assets\ludo_assets\1.png"),
-        pygame.image.load(r"C:\Users\hp\OneDrive\Desktop\LudoGame\Game-Hub\assets\ludo_assets\2.png"),
-        pygame.image.load(r"C:\Users\hp\OneDrive\Desktop\LudoGame\Game-Hub\assets\ludo_assets\3.png"),
-        pygame.image.load(r"C:\Users\hp\OneDrive\Desktop\LudoGame\Game-Hub\assets\ludo_assets\4.png"),
-        pygame.image.load(r"C:\Users\hp\OneDrive\Desktop\LudoGame\Game-Hub\assets\ludo_assets\5.png"),
-        pygame.image.load(r"C:\Users\hp\OneDrive\Desktop\LudoGame\Game-Hub\assets\ludo_assets\6.png")
+        pygame.image.load(r"assets\ludo_assets\1.png"),
+        pygame.image.load(r"assets\ludo_assets\2.png"),
+        pygame.image.load(r"assets\ludo_assets\3.png"),
+        pygame.image.load(r"assets\ludo_assets\4.png"),
+        pygame.image.load(r"assets\ludo_assets\5.png"),
+        pygame.image.load(r"assets\ludo_assets\6.png")
     ]
     colors = [
-        pygame.image.load(r"C:\Users\hp\OneDrive\Desktop\LudoGame\Game-Hub\assets\ludo_assets\red.png"),
-        pygame.image.load(r"C:\Users\hp\OneDrive\Desktop\LudoGame\Game-Hub\assets\ludo_assets\green.png"),
-        pygame.image.load(r"C:\Users\hp\OneDrive\Desktop\LudoGame\Game-Hub\assets\ludo_assets\yellow.png"),
-        pygame.image.load(r"C:\Users\hp\OneDrive\Desktop\LudoGame\Game-Hub\assets\ludo_assets\blue.png")
+        pygame.image.load(r"assets\ludo_assets\red.png"),
+        pygame.image.load(r"assets\ludo_assets\green.png"),
+        pygame.image.load(r"assets\ludo_assets\yellow.png"),
+        pygame.image.load(r"assets\ludo_assets\blue.png")
     ]
 except Exception as e:
     print(f"Error loading images: {e}")
@@ -52,10 +52,10 @@ color_rgb = [(255, 50, 50), (50, 255, 50), (255, 255, 50), (50, 50, 255)]
 # Loading Sounds
 try:
     mixer.init()
-    killSound = mixer.Sound(r"C:\Users\hp\OneDrive\Desktop\LudoGame\Game-Hub\assets\ludo_assets\sounds\kill.mp3")
-    tokenSound = mixer.Sound(r"C:\Users\hp\OneDrive\Desktop\LudoGame\Game-Hub\assets\ludo_assets\sounds\token_movment.mp3")
-    diceSound = mixer.Sound(r"C:\Users\hp\OneDrive\Desktop\LudoGame\Game-Hub\assets\ludo_assets\sounds\Dice Roll.wav")
-    winnerSound = mixer.Sound(r"C:\Users\hp\OneDrive\Desktop\LudoGame\Game-Hub\assets\ludo_assets\sounds\win.mp3")
+    killSound =   mixer.Sound(r"assets\ludo_assets\sounds\kill.mp3")
+    tokenSound =  mixer.Sound(r"assets\ludo_assets\sounds\token_movment.mp3")
+    diceSound =   mixer.Sound(r"assets\ludo_assets\sounds\Dice Roll.wav")
+    winnerSound = mixer.Sound(r"assets\ludo_assets\sounds\win.mp3")
 except:
     # Dummy sound objects if audio fails
     class DummySound:
