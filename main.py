@@ -82,7 +82,7 @@ game_listbox = tk.Listbox(root, height=6, width=25, font=("Arial", 14), bg="#393
 game_listbox.pack(pady=5)
 update_game_list(game_list)
 
-game_listbox.bind('<<ListboxSelect>>', on_game_select)
+game_listbox.bind('<Double-1>', on_game_select)
 
 # Search Section
 tk.Label(root, text="🔍 Search Game:", font=("Arial", 12), bg="#222831", fg="#EEEEEE").pack()
