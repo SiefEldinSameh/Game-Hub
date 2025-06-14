@@ -19,16 +19,16 @@ playersTurn.append("player1")
 playersTurn.append("player2")
 
 
-diceSound = mixer.Sound("dice.wav")
+diceSound = mixer.Sound("assets\snake-ladder-assets\dice.wav")
 
 
 # Set frame folder and prefix
-FRAME_FOLDER = "ezgif-split"
+FRAME_FOLDER = "assets\snake-ladder-assets\ezgif-split"
 FRAME_PREFIX = "frame_apngframe"
 d = "dice"
-f = "dice"
-font = pg.font.Font("FreeSansBold.ttf" ,32)
-fontBig = pg.font.Font("FreeSansBold.ttf" ,55)
+f = "assets\snake-ladder-assets\dice"
+font = pg.font.Font("assets\snake-ladder-assets\FreeSansBold.ttf" ,32)
+fontBig = pg.font.Font("assets\snake-ladder-assets\FreeSansBold.ttf" ,55)
 
 
 
@@ -99,20 +99,20 @@ def getPosition(square):
 
 
 pg.display.set_caption("Snake and Ladder")
-icon = pg.image.load("sl.png")
+icon = pg.image.load("assets\snake-ladder-assets\sl.png")
 pg.display.set_icon(icon)
 
-bgIMG= pg.image.load("snakesandladdersboard.jpg")
+bgIMG= pg.image.load("assets\snake-ladder-assets\snakesandladdersboard.jpg")
 
 
-font = pg.font.Font("FreeSansBold.ttf" ,15)
+font = pg.font.Font("assets\snake-ladder-assets\FreeSansBold.ttf" ,15)
 
-player1img = pg.image.load("pawn.png")
+player1img = pg.image.load("assets\snake-ladder-assets\pawn.png")
 player1pos = getPosition(1)
 player1Square = 1
 
 
-player2img = pg.image.load("pawn2.png")
+player2img = pg.image.load("assets\snake-ladder-assets\pawn2.png")
 player2pos = getPosition(1)
 player2Square = 1
 
