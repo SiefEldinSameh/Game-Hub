@@ -8,13 +8,13 @@ A versatile game engine supporting three classic board games: **Snake & Ladder**
 - [Project Description](#project-description)
 - [Features](#features)
 - [Games Overview](#games-overview)
-  - [Snake & Ladder](#snake--ladder)
-  - [Chess](#chess)
-  - [Ludo](#ludo)
+  - [🐍 Snake & Ladder](#-snake--ladder)
+  - [♟️ Chess](#-chess)
+  - [🎲 Ludo](#-ludo)
 - [Data Structures Used](#data-structures-used)
 - [Installation](#installation)
 - [How to Play](#how-to-play)
-- [Team Members](#👥-team-Members)
+- [👥 Team Members](#-team-members)
 - [Submitted to](#submitted-to)
 
 ## Project Description
@@ -46,7 +46,7 @@ Classic dice-based race to the top with:
 - Snake and ladder jumps
 - 2-player turn system
 
-![Snake & Ladder](assets/snake_screenshot.png)
+<img src="https://github.com/user-attachments/assets/07d0ae8d-25c8-4c9b-8444-813736976233" alt="Temperature Display" width="500" />  
 
 ### ♟️ Chess
 Full chess implementation featuring:
@@ -55,7 +55,7 @@ Full chess implementation featuring:
 - Piece capturing
 - Undo functionality
 
-![Chess](assets/chess_screenshot.png)
+<img src="https://github.com/user-attachments/assets/a3cde683-9a3b-4ba7-ac4b-b4650a1e4d5e" alt="Temperature Display" width="500" />  
 
 ### 🎲 Ludo
 Traditional Ludo with:
@@ -64,7 +64,8 @@ Traditional Ludo with:
 - Safe zones and star jumps
 - Token capturing
 
-![Ludo](assets/ludo_screenshot.png)
+<img src="https://github.com/user-attachments/assets/2064f4b7-9100-4cc0-89e6-8f07eb822e80" alt="Temperature Display" width="500" />  
+
 
 ## Data Structures Used
 | Data Structure       | Usage in Project                          |
