@@ -15,7 +15,7 @@ A versatile game engine supporting three classic board games: **Snake & Ladder**
 - [Installation](#installation)
 - [How to Play](#how-to-play)
 - [Team Members](#team-members)
-- [Acknowledgments](#acknowledgments)
+- [Acknowledgments](#submitted-to)
 
 ## Project Description
 This project demonstrates advanced data structure implementation through three multiplayer turn-based games. Developed as part of our Data Structures course under the supervision of **Eng. Moutair**, it showcases:
