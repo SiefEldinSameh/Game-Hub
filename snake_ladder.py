@@ -26,7 +26,6 @@ diceSound = mixer.Sound("dice.wav")
 FRAME_FOLDER = "ezgif-split"
 FRAME_PREFIX = "frame_apngframe"
 d = "dice"
-f = "dice"
 font = pg.font.Font("FreeSansBold.ttf" ,32)
 fontBig = pg.font.Font("FreeSansBold.ttf" ,55)
 
@@ -45,7 +44,7 @@ for i in range(1, 51):  # 1 to 150
 diceValue = []
 for i in range(0, 6):  # 1 to 150
     filename = f"{d}{i+1}.png"  # e.g., frame_apngframe001.png
-    path = os.path.join(f, filename)
+    path = os.path.join(d, filename)
     try:
         image = pg.image.load(path).convert_alpha()
         small_image = pg.transform.scale(image, (100, 100))  # e.g., (50, 50)
