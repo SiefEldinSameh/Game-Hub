@@ -105,8 +105,8 @@ Traditional Ludo with:
 | [Saif](#) | Chess Engine | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com) |
 | [Ziad](#) | Snake & Ladder GUI | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/ibrahim-abdelqader-93b9b124b/) |
 | [Ibrahim](#) | Snake & Ladder Engine | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/ziad0nassif/) |
-| [Mohamed](#) | Ludo UI/UX | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/mohamed-elnefary-1246672b0/) |
-| [Jana](#) | Ludo Game Logic | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/jana-nour-1510bb324/) |
+| [Mohamed](#) | Ludo Logic &GUI | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/mohamed-elnefary-1246672b0/) |
+| [Jana](#) | Connect4 Game | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/jana-nour-1510bb324/) |
 
 ## Submitted to:
 - Dr. Eman Marzban & Eng. Mutair 
