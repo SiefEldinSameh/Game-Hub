@@ -40,7 +40,7 @@ Key components include:
 
 ## Games Overview
 
-### Snake & Ladder
+### 🐍 Snake & Ladder
 Classic dice-based race to the top with:
 - Random dice rolls
 - Snake and ladder jumps
@@ -48,7 +48,7 @@ Classic dice-based race to the top with:
 
 ![Snake & Ladder](assets/snake_screenshot.png)
 
-### Chess
+### ♟️ Chess
 Full chess implementation featuring:
 - All piece movements
 - Check/checkmate detection
@@ -57,7 +57,7 @@ Full chess implementation featuring:
 
 ![Chess](assets/chess_screenshot.png)
 
-### Ludo
+### 🎲 Ludo
 Traditional Ludo with:
 - 2-4 player support
 - Token movement logic
