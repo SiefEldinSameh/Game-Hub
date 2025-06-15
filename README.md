@@ -14,7 +14,7 @@ A versatile game engine supporting three classic board games: **Snake & Ladder**
 - [Data Structures Used](#data-structures-used)
 - [Installation](#installation)
 - [How to Play](#how-to-play)
-- [Team Members](#team-members)
+- [Team Members](#👥-team-Members)
 - [Submitted to](#submitted-to)
 
 ## Project Description
