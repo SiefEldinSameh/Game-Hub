@@ -78,5 +78,35 @@ Traditional Ludo with:
 
 ## Installation
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/multiplayer-game-engine.git
+     ```bash
+     git clone https://github.com/yourusername/multiplayer-game-engine.git
+     ```
+2. Install dependencies:
+    ```bash
+    pip install pygame numpy
+    ```
+3. Run the desired game:
+    ```bash
+    python snake_ladder.py
+    python chess.py
+    python ludo.py
+    ```
+
+## How to Play
+- Snake & Ladder: Press spacebar to roll dice
+- Chess: Click to select pieces and destinations
+- Ludo: Click dice to roll, then click your token
+
+## 👥 Team Members
+
+| Member Name | Game Contribution | LinkedIn |
+|-------------|------------------|----------|
+| [Saif](#) | Chess Engine | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com) |
+| [Ziad](#) | Snake & Ladder GUI | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/ibrahim-abdelqader-93b9b124b/) |
+| [Ibrahim](#) | Snake & Ladder Engine | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/ziad0nassif/) |
+| [Mohamed](#) | Ludo UI/UX | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/mohamed-elnefary-1246672b0/) |
+| [Jana](#) | Ludo Game Logic | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/jana-nour-1510bb324/) |
+
+## Submitted to:
+- Dr. Eman Marzban & Eng. Mutair 
+All rights reserved © 2025 to Team 07 - Systems & Biomedical Engineering, Cairo University (Class 2028)
