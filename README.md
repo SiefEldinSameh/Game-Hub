@@ -102,7 +102,7 @@ Traditional Ludo with:
 
 | Member Name | Game Contribution | LinkedIn |
 |-------------|------------------|----------|
-| [Saif](#) | Chess Engine | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com) |
+| [Saif](#) | Chess Engine | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/sief-eldin-sameh-b755a7321/) |
 | [Ziad](#) | Snake & Ladder GUI | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/ibrahim-abdelqader-93b9b124b/) |
 | [Ibrahim](#) | Snake & Ladder Engine | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/ziad0nassif/) |
 | [Mohamed](#) | Ludo Logic &GUI | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/mohamed-elnefary-1246672b0/) |
